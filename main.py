@@ -10,7 +10,7 @@ wcapi = API(
     version="wc/v3"
 )
 
-# GET A LIST OF ALL PRODUCTS (NOW I KNOW WHY YOU SAID PRODUCTS SHOULD > 100)
+# GET A LIST OF ALL PRODUCTS
 # Based on WC API documentation, there is a max limit which is 100 products per call (per_page)
 # I CREATED PRODUCTS WITHOUT PRICES & MY TOTAL NUMBER OF PRODUCTS ARE NOW 108(78 WITH PRICE AND 30 WITHOUT)
 
