@@ -40,6 +40,8 @@ prods_without_price_id = [x['id'] for x in prods_without_price ]
 for id in prods_without_price_id:
     wcapi.delete(f"products/{id}", params={"force": True}).json()
 
+# the end
+
 
 
 
